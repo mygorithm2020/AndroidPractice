@@ -20,6 +20,6 @@ fun ArrayTest(){
     println(cars[3]::class.simpleName)
     println(cars::class.simpleName)
     var test : IntArray
-    test.
+
 
 }
