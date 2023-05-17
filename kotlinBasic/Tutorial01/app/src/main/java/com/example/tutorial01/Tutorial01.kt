@@ -1,15 +1,78 @@
 package com.example.tutorial01
 
+import android.os.Build
+import android.support.annotation.RequiresApi
 import java.math.BigDecimal
+import java.time.LocalDate
+import java.time.LocalDateTime
+import java.time.ZoneOffset
+import java.time.format.DateTimeFormatter
 
 class Tutorial01 {
 }
 
+@RequiresApi(Build.VERSION_CODES.O)
 fun main(){
-    Test01()
-    println("----------------------------------------")
-    Test02()
+//    Test01()
+//    println("----------------------------------------")
+//    Test02()
+//    println("----------------------------------------")
+//    Test03()
+//    println("Test05----------------------------------------")
+//    Test05()
+    Test06()
+}
 
+fun Test06(){
+    for (i : Int in 1..5){
+        println(i)
+    }
+}
+
+
+
+@RequiresApi(Build.VERSION_CODES.O)
+fun Test05(){
+    var playDate = "20230314"
+    var startTime = "1234"
+
+    var qqq = LocalDate.parse(playDate+startTime, DateTimeFormatter.ofPattern("yyyyMMddHHmm"))
+    println(qqq)
+    println(qqq::class.simpleName)
+
+    var www = LocalDateTime.parse(playDate+startTime, DateTimeFormatter.ofPattern("yyyyMMddHHmm"))
+    println(www)
+    println(www::class.simpleName)
+
+//    val utcToday = LocalDateTime.now(ZoneOffset.UTC)
+//    var today = utcToday.plusHours(9)
+//    println(utcToday)
+//    println(utcToday.toString())
+//    println(today)
+//
+//    val paymentTime = LocalDateTime.now().format(DateTimeFormatter.ofPattern("HHmm"))
+//    println(paymentTime)
+//
+//    val utcToday02 = LocalDate.now(ZoneOffset.UTC)
+//    var today02 = utcToday02
+//    println(utcToday02)
+//    println(today02)
+//
+//    println(System.currentTimeMillis())
+}
+
+fun Test04(){
+    var str : String = "aaaa"
+    str.trim { it <= ' ' }
+}
+
+fun Test03(){
+    var str : String = ""
+    println(str.take(4))
+    println(str.takeLast(5))
+    if (str.take(4) == "null"){
+        println("qqqq")
+    }
 }
 
 private  fun Test02(){
