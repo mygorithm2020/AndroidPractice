@@ -3,9 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/AndroidMine/Project/Practice/kotlinBasic/RestApiDemo/app/src/main/res/drawable/ic_action_cancel.xml" value="0.316" />
-        <entry key="..\:/AndroidMine/Project/Practice/kotlinBasic/RestApiDemo/app/src/main/res/layout/activity_main.xml" value="0.31302083333333336" />
-        <entry key="..\:/AndroidMine/Project/Practice/kotlinBasic/RestApiDemo/app/src/main/res/layout/home_rv_item_view.xml" value="0.21392857142857144" />
+        <entry key="..\:/AndroidMine/Project/Practice/kotlinBasic/ViewBindingEx/app/src/main/res/layout/activity_main.xml" value="0.2984375" />
       </map>
     </option>
   </component>
