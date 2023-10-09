@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_network_state"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:text="네트워크 연결 상태"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_network_test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:text="test"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_network_ip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:text="ip address"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/iv_wifi_str"
+            android:src="@drawable/wifi4"/>
+
+
+        <TextView
+            android:id="@+id/tv_network_strength"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:text="strength"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_network_test2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:text="strength"
+            android:textSize="20sp" />
+
+
+
+        <TextView
+            android:id="@+id/tv_network_test3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:text="strength"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_network"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="네트워크 연결상태 확인하기"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

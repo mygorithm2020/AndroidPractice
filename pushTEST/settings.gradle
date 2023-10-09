@@ -1,0 +1,2 @@
+rootProject.name = "pushTEST"
+include ':app'

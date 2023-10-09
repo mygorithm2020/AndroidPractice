@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_low"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_brightness_low_24"
+        android:title="톱니바퀴"/>
+
+    <item
+        android:id="@+id/action_bluetooth"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_bluetooth_24"
+        android:title="블루투스"/>
+
+    <item
+        android:id="@+id/action_call"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_call_24"
+        android:title="전화"/>
+
+    <item
+        android:id="@+id/action_dash"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_dashboard_24"
+        android:title="대시보드"/>
+
+    <item
+        android:id="@+id/action_miscell"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_miscellaneous_services_24"
+        android:title="톱니바퀴 두개"/>
+
+</menu>
