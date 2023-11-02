@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
 
     fun CallAPI(): String? {
         var responseStr  = ""
-        val url = URL("https://was.aglcms.com/api/AGLCS/Example")
+        val url = URL("https://")
         with(url.openConnection() as HttpURLConnection) {
             requestMethod = "GET"  // optional default is GET
 
