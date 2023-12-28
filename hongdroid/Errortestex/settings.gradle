@@ -1,0 +1,2 @@
+rootProject.name = "Errortestex"
+include ':app'

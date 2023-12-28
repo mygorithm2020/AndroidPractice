@@ -1,0 +1,2 @@
+rootProject.name = "VideoRecordexample"
+include ':app'

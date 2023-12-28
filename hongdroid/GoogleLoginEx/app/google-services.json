@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "20898989346",
+    "project_id": "loginex-a251b",
+    "storage_bucket": "loginex-a251b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20898989346:android:5c52a84e61314eafbad17b",
+        "android_client_info": {
+          "package_name": "com.example.googleloginex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "20898989346-v0efs38q6npom8hf5lhvqt5r7v83i0pr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.googleloginex",
+            "certificate_hash": "15681a224a48dfcb461f3245146b1f1ce6f4a668"
+          }
+        },
+        {
+          "client_id": "20898989346-nb6l8ch1lo1qc7t7t5mcihqvshgspgab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA7bzjRWII_lsEqwYU-nB40mZMT77dWDw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "20898989346-nb6l8ch1lo1qc7t7t5mcihqvshgspgab.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

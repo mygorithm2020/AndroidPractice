@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/layout_main">
+
+
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/map"
+        tools:context=".MapsActivity"
+        android:name="com.google.android.gms.maps.SupportMapFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/edit_text01"
+                android:hint="출발지를 입력하세요"
+                android:background="#ffffff"
+                android:layout_marginBottom="5dp"
+                android:gravity="center_vertical"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/edit_text02"
+                android:hint="목적지를 입력하세요"
+                android:background="#ffffff"
+                android:layout_marginBottom="5dp"
+                android:gravity="center_vertical"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/edit_text03"
+                android:hint="희망 도착 시간을 알려주세요."
+                android:background="#ffffff"
+                android:layout_marginBottom="5dp"
+                android:gravity="center_vertical"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/edit_text04"
+                android:hint="물품정보를 입력해주세요"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                />
+        </LinearLayout>
+
+    </fragment>
+
+
+
+
+</LinearLayout>

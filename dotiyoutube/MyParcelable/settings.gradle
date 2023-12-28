@@ -1,0 +1,2 @@
+rootProject.name = "My Parcelable"
+include ':app'

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">layout03</string>
+    <string name="hello_world">CardView</string>
+</resources>

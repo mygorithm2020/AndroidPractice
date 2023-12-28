@@ -1,0 +1,2 @@
+rootProject.name = "My Socket"
+include ':app'
